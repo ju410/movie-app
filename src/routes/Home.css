@@ -29,8 +29,13 @@ body,
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 60px;
+    padding: 5%;
     width: 90%;
+    margin-top: 3%;
+}
+.movies a{
+  display: contents;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {

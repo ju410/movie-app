@@ -1,0 +1,49 @@
+.nav{
+    width: 100%;
+    max-width: 5%;
+    background-color: white;
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 2%;
+    box-shadow: 1px 2px 10px 2px gray;
+}
+.nav ul{
+    text-align: center;
+    padding: 0;
+}
+.nav li{
+    padding: 10%;
+}
+a{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .nav {
+      width: 100%;
+      max-width: 10%;
+      
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+      .nav{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          position: static;
+          width: 100%;
+        max-width: 80%;
+        margin: 10%;
+      }
+      .nav li{
+          display: inline;
+      }
+      .nav li:first-child{
+          margin-left: -25%;
+      }
+     }
